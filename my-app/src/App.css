@@ -1,0 +1,122 @@
+/* src/App.css */
+.background-color {
+  background-color: #ffffff;
+}
+
+.radial-score {
+  max-width: 150px;
+}
+
+.bar-score {
+  max-width: 200px;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #f0f0f0;
+}
+
+.app-container {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.header {
+  align-items: center;
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px;
+}
+
+.report-date span {
+  display: block;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.left-panel {
+  margin-right: 20px;
+  background-color: #ecf0f1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.right-panel {
+  padding: 10px;
+}
+
+.student-name {
+  padding: 15px;
+  margin: 1px;
+  font-weight: 800;
+  border: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  min-width: 280px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.class-score-container {
+  align-items: center;
+  max-width: 250px;
+  min-height: 350px;
+  font-family: sans-serif;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.class-score {
+  align-items: center;
+  margin: 20px 0;
+}
+
+.class-score img {
+  max-width: 100%;
+  height: auto;
+}
+
+.grade {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.percentile {
+  align-items: center;
+}
+
+.percentile span {
+  display: block;
+}
+
+.title {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.header {
+  font-family: sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.sub-header {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.body {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
